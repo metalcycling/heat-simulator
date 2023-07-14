@@ -1,0 +1,46 @@
+h1
+{
+    color:#0000FF;
+    font-size:2em;
+}
+
+p
+{
+    font-size:1em;
+}
+
+.goal
+{
+    color: #FF0000;
+    font-size: 1em;
+    text-align: center;
+}
+
+.submission
+{
+    visibility: hidden;
+}
+
+#data
+{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    width:100%;
+    border-collapse:collapse;
+}
+
+#data td, #data th
+{
+    font-size:1em;
+    border:1px solid #98BF21;
+    padding:3px 7px 2px 7px;
+}
+
+#data th
+{
+    font-size:1.1em;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color:#A7C942;
+    color:#FFFFFF;
+}

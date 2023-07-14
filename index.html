@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+        <script type = "text/javascript" src = "javascript.js"></script>
+	    <script src = "plotting.js"></script>
+        <title>Heat Simulator</title>
+    </head>
+    <body>
+        <h1>Heat Simulator:</h1>
+
+        <div id = "sources-table"></div>
+
+        <form action = '#'>
+            <input type = 'submit' value = 'RUN SIMULATION' id = 'running' onclick = 'run();'>
+            <input type = 'submit' value = 'STOP SIMULATION' id = 'stopped' onclick = 'stop();' disabled>
+            <br>
+            Speed (in ms): <input type = 'text' id = 'speed' value = '5'>
+        </form>
+
+        <canvas id = "simulation" width = "700" height = "700"></canvas>
+    </body>
+</html>
